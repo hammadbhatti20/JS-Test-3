@@ -101,3 +101,76 @@
 // };
 
 //Q7
+// var secretNumber = 7;
+// var userGuess = +prompt("Guess the secret number (between 1 and 10):");
+// if (userGuess == secretNumber) {
+//     alert("“Bingo! Correct Answer”");
+// } else if (userGuess == secretNumber + 1 || userGuess === secretNumber - 1) {
+//     alert("Close enough to the correct answer");
+// } else {
+//     alert("Sorry, incorrect guess. The correct answer was " + secretNumber);
+// };
+
+//Q8
+// var userNumber = parseInt(prompt("Enter a number:"));
+// if (userNumber % 3 === 0) {
+//     alert(userNumber + " is divisible by 3.");
+// } else {
+//     alert(userNumber + " is not divisible by 3.");
+// };
+
+//Q9
+// var userNumber = parseInt(prompt("Enter a number:"));
+// if (userNumber % 2 === 0) {
+//     alert(userNumber + " is Even");
+// } else {
+//     alert(userNumber + " is Odd");
+// };
+
+//Q10
+// var temperature = +prompt("Enter Temperature:");
+// if (temperature > 40) {
+//     alert("“It is too hot outside.”");
+// } else if (temperature > 30) {
+//     alert("“The Weather today is Normal.”");
+// } else if (temperature > 20) {
+//     alert("“Today’s Weather is cool.”");
+// } else if (temperature > 10) {
+//     alert("“OMG! Today’s weather is so Cool.”");
+// };
+
+//Q11
+// var firstNumber = +prompt("Enter First Number");
+// var secondNumber = +prompt("Enter Second Number");
+// var operation = prompt("Enter Operation Sign");
+// if (operation == "+") {
+//     alert(firstNumber + secondNumber);
+// } else if (operation == "-") {
+//     alert(firstNumber - secondNumber);
+// } else if (operation == "*") {
+//     alert(firstNumber * secondNumber);
+// } else if (operation == "/") {
+//     alert(firstNumber / secondNumber);
+// } else if (operation == "%") {
+//     alert(firstNumber % secondNumber);
+// } else {
+//     alert("Wrong Value");
+// };
+
+
+//Chapter No: 12-13
+
+//Q1
+// Prompt user to enter a character
+const userInput = prompt("Enter a character (number or string):");
+
+// Check if the input is a number
+if (!isNaN(userInput)) {
+    console.log(userInput + " is a number.");
+} else if (userInput === userInput.toUpperCase()) {
+    console.log(userInput + " is an uppercase letter.");
+} else if (userInput === userInput.toLowerCase()) {
+    console.log(userInput + " is a lowercase letter.");
+} else {
+    console.log(userInput + " is not a number, uppercase letter, or lowercase letter.");
+}
