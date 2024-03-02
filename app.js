@@ -161,16 +161,153 @@
 //Chapter No: 12-13
 
 //Q1
-// Prompt user to enter a character
-const userInput = prompt("Enter a character (number or string):");
+// function checkCharacterType(inputChar) {
+//     // Convert the input character to its ASCII code
+//     var charCode = inputChar.charCodeAt(0);
 
-// Check if the input is a number
-if (!isNaN(userInput)) {
-    console.log(userInput + " is a number.");
-} else if (userInput === userInput.toUpperCase()) {
-    console.log(userInput + " is an uppercase letter.");
-} else if (userInput === userInput.toLowerCase()) {
-    console.log(userInput + " is a lowercase letter.");
-} else {
-    console.log(userInput + " is not a number, uppercase letter, or lowercase letter.");
-}
+//     if (charCode >= 48 && charCode <= 57) {
+//         alert("The given input is a number.");
+//     } else if (charCode >= 65 && charCode <= 90) {
+//         alert("The given input is an uppercase letter.");
+//     } else if (charCode >= 97 && charCode <= 122) {
+//         alert("The given input is a lowercase letter.");
+//     } else {
+//         alert("The given input is not a number, uppercase letter, or lowercase letter.");
+//     }
+// }
+
+// // Example usage:
+// var userInput = prompt("Enter a character: ");
+// checkCharacterType(userInput);
+
+//Q2
+// var num1 = +prompt("Enter Your First Int Value");
+// var num2 = +prompt("Enter Your Second Int Value");
+// if (num1 > num2) {
+//     alert("Num 1 is Big");
+// } else if (num1 < num2) {
+//     alert("Num 2 is Big");
+// } else {
+//     alert("Values Are Equal");
+// };
+
+//Q3
+// var num = +prompt("Enter Number Value");
+// if (num > 0) {
+//     alert("Num is Possitive");
+// } else if (num < 0) {
+//     alert("Num is Negetive");
+// }; 
+
+//Q4
+// var str = prompt("Enter Anything In English To Find its 1st Letter is a Vowel or Not");
+// if (str.charAt(0) == "a" || str.charAt(0) == "A") {
+//     alert(true);
+// } else if (str.charAt(0) == "e" || str.charAt(0) == "E") {
+//     alert(true);
+// } else if (str.charAt(0) == "i" || str.charAt(0) == "I") {
+//     alert(true);
+// } else if (str.charAt(0) == "o" || str.charAt(0) == "O") {
+//     alert(true);
+// } else if (str.charAt(0) == "u" || str.charAt(0) == "U") {
+//     alert(true);
+// } else {
+//     alert(false);
+// };
+
+//Q5
+// var password = prompt("Enter Your Password","Please enter your password");
+// if (password == "karachi123") {
+//     alert("“Correct! The password you entered matches the original password”");
+// } else {
+//     alert("“Incorrect password”");
+// }; 
+
+//Q6
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+//     greeting = "Good day";
+//     alert(greeting);
+// } else {
+//     greeting = "Good evening";
+//     alert(greeting);
+// };
+
+//Q7
+// var time = prompt("Enter Your Time");
+// if (time >= "0000" && time < "1200") {
+//     alert("Good morning!")
+// } else if (time >= "1200" && time < "1700") {
+//     alert("Good afternoon!")
+// } else if (time >= "1700" && time < "2100") {
+//     alert("Good evening!")
+// } else if (time >= "2100" && time < "2359") {
+//     alert("Good night!")
+// };
+
+
+//Chapter 10 (if statements)
+
+//Q1
+// var city = "Karachi";
+// if (city == "Karachi") {
+//     console.log("The City OF Lights");
+// };
+
+//Q2
+// var x = 10;
+// var y = 10;
+// var z;
+// if (x === y) {
+//     z = prompt("Enter You Value");
+//     var a = z;
+//     console.log(a);
+// };
+
+//Q3
+// var zipCode = prompt("Enter ZipCode");
+// if (zipCode == "10010") {
+//     alert("Karachi");
+// } else {
+//     alert("Please write correct city");
+// };
+
+//Q4
+// var x = +prompt("Enter Value");
+// if (x >= 0) {
+//     x = 1;
+//     console.log(x);
+// };
+
+
+//Chapter 11 (Comparison Operators)
+
+//Q1
+// var a = +prompt("Enter 'a' Value");
+// var b = +prompt("Enter 'b' Value");
+// if (a === b) {
+//     alert("Equal");
+// };
+
+//Q2
+// var num1 = +prompt("Enter First Value");
+// var num2 = +prompt("Enter Second Value");
+// if (num1 > num2) {
+//     alert("First Value is Greater than Second");
+// } else if (num1 < num2) {
+//     alert("First Value is Less than Second");
+// } else {
+//     alert("Values are Equal");
+// };
+
+//Q3
+// var b;
+// var c = 10;
+// var a = +prompt("Enter Number");
+// if (a != c) {
+//     b = 50
+//     console.log(b);
+// };
+
+//Q4
