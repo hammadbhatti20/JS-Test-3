@@ -311,3 +311,162 @@
 // };
 
 //Q4
+// var num1 = +prompt("guess value between 1 to 10");
+// var num2 = 10
+// if (num1 != num2) {
+//     alert("congratulations");
+// } else {
+//     alert("Values are Equal");
+// };
+
+//Q5
+// var firstName = prompt("Enter your First Name:");
+// if ((firstName == "muhammad" || firstName == "Muhammad") || (firstName == "syed" || firstName == "Syed")) {
+//     alert(true);
+// } else {
+//     alert("No match");
+// }
+
+
+//Chapter 12 (if…else and else if statements)
+
+//Q1
+// var a = 5;
+// var b = 6;
+// if (a > b) {
+//     alert("a is greater than b");
+// } else if (a = b) {
+//     alert("a is equal to b");
+// } else {
+//     alert("a is less than b");
+// }
+
+//Q2
+// var oM = +prompt("Enter Your Obtained Marks");
+// var tM = 400;
+// var perc = (oM / tM) * 100;
+// if (perc >= 80 || perc <= 100) {
+//     alert("A");
+// } else if (perc >= 70 || perc <= 80) {
+//     alert("B");
+// } else if (perc >= 60 || perc <= 70) {
+//     alert("C");
+// } else {
+//     alert(false);
+// }
+
+//Q3
+// var a = 10;
+// if (a === 10) {
+//     alert("a is 10");
+// } else {
+//     alert("The Correct Value is 10");
+// }
+
+//Q4
+// var cityName = prompt("Enter Your City Name");
+// if (cityName == "karachi" || cityName == "Karachi") {
+//     alert("its karachi");
+// } else if (cityName == "lahore" || cityName == "Lahore") {
+//     alert("its lahore");
+// } else {
+//     alert(false)
+// }
+
+
+//Chapter 13 (Testing sets of conditions)
+
+//Q1
+// var a = 10;
+// var b = 10;
+// var c = 10;
+// var d = 10;
+// if (a == b && c == d) {
+//     alert(true);
+// }
+
+//Q2
+// var a = 10;
+// var b = 10;
+// var c = 11;
+// var d = 10;
+// if (a == b || c == d) {
+//     alert(true);
+// }
+
+//Q3
+// var N1 = "Hamza";
+// var N2 = "Arsalan";
+// var age = 59;
+// if (N1 == "Hamza" && N2 == "Arsalan" && age < 60) {
+//     alert(true);
+// }
+
+//Q4
+// var a = 10;
+// var b = 9;
+// if (a < b) {
+//     alert("a is less than b");
+// } else {
+//     alert("a is greater than b");
+// }
+
+//Q5
+// var firstName = prompt("Enter Your First Name");
+// var lastName = prompt("Enter Your Last Name");
+// var fullName = firstName + " " + lastName;
+// alert(fullName);
+
+
+//Chapter 14 (If statements nested)
+
+//Q1
+// var password = prompt("Enter Your Password");
+// if (password !== " ") {
+//     if (password.length <= 5) {
+//         alert("Password must be greater than 5 characters");
+//     } else {
+//         alert("OK");
+//     }
+// } else {
+//     alert(false);
+// }
+
+//Q2
+// var a = 1;
+// var c = "Max";
+// if (a === 1) {
+//     if (c === "Max") {
+//         alert("OK");
+//     } else {
+//         alert(false);
+//     }
+// } else {
+//     alert(false);
+// }
+
+//Q3
+// var a = 1;
+// var c = "Max";
+// if (a === 1) {
+//     if (c === "Max") {
+//         alert("OK");
+//     } else {
+//         alert(false);
+//     }
+// } else {
+//     alert(false);
+// }
+
+//Q4
+// var a = 5;
+// var b = 5;
+// if (a === b) {
+//     if (a <= b) {
+//         alert("OK");
+//     } else {
+//         alert(false);
+//     }
+// } else {
+//     alert(false);
+// }
